@@ -1,0 +1,16 @@
+# Игнорируем библиотеки фронтенда
+node_modules/
+.next/
+out/
+build/
+
+# Игнорируем виртуальное окружение Python
+backend/venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Игнорируем секреты и настройки редактора
+.env*
+.vscode/
+.idea/
