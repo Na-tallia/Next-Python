@@ -1,7 +1,6 @@
 from django.db import models
 
-# Create your models here.
-from django.db import models
+
 
 class Todo(models.Model):
     # Заголовок задачи (короткий текст до 200 символов)
@@ -15,3 +14,4 @@ class Todo(models.Model):
 
     def __str__(self):
         return self.title
+
