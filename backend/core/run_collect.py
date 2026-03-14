@@ -17,7 +17,7 @@ if __name__ == "__main__":
     if token:
         print(f"📡 Токен найден: {token[:10]}...")
         # Запускаем сбор: функция сама возьмёт токен из .env
-        result = fetch_and_save_ads('бизнес')
+        result = fetch_and_save_ads('real estate abroad')
         print(f"📊 Результат: {result}")
     else:
         print("❌ Ошибка: META_ACCESS_TOKEN не найден в .env файле!")
